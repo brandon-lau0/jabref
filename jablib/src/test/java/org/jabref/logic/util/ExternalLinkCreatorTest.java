@@ -2,6 +2,7 @@ package org.jabref.logic.util;
 
 import java.net.MalformedURLException;
 import java.util.Collections;
+import java.util.List;
 import java.util.Optional;
 
 import org.jabref.logic.importer.ImporterPreferences;
@@ -27,7 +28,7 @@ class ExternalLinkCreatorTest {
                     Collections.emptySet(), // apiKeys
                     Collections.emptyMap(), // defaultApiKeys
                     true, // persistCustomKeys
-                    Collections.emptyList(), // catalogs
+                    List.of(), // catalogs
                     null, // defaultPlainCitationParser
                     Collections.emptyMap() // searchEngineUrlTemplates
             );
