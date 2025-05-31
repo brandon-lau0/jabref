@@ -26,6 +26,7 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - We added support for import of a Refer/BibIX file format. [#13069](https://github.com/JabRef/jabref/issues/13069)
 - We added support for "Search Google Scholar" to quickly search for a selected entry's title in Google Scholar directly from the main table's context menu [#12268](https://github.com/JabRef/jabref/issues/12268)
 - We introduced a new "Search Engine URL Template" setting in Preferences to allow users to customize their search engine URL templates [#12268](https://github.com/JabRef/jabref/issues/12268)
+- We added support for "Search Semantic Scholar" to quickly search for a selected entry's title in Semantic Scholar directly from the main table's context menu
 
 ### Changed
 
